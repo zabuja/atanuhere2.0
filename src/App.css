@@ -16,22 +16,26 @@ body {
   max-width: 880px;
   text-align: left;
 }
-.headers{
+
+.headers {
   color: #EAEAEA;
   font-size: 1.7rem;
   text-align: left;
 }
-.years{
+
+.years {
   color: #686868;
   font-size: 1.2rem;
 }
-.job-titles{
+
+.job-titles {
   color: #EAEAEA;
   font-size: 1.2rem;
   text-decoration: none;
   cursor: pointer;
 }
-.job-desc{
+
+.job-desc {
   color: #686868;
   font-size: 1.2rem;
 }
@@ -39,30 +43,41 @@ body {
 .headline {
   color: #EAEAEA;
   font-size: 3.5rem;
-  
+
 }
 
 .normal-text {
   color: #686868;
   font-size: 1.2rem;
-  
+
 }
 
-.banner-wrapper {
-  display: grid;
-  float: right;
+.navbar {
+  margin: 10px;
+}
+
+.max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-items {
-  display: flex;
+  margin-left: 20px;
+  color: #EAEAEA;
   list-style: none;
-  float: right;
 }
 
-li {
-  color: #EAEAEA;
-  
-  margin-right: 10px;
+li:hover {
+  color: red;
+  font-weight: 600;
+  transition: ease-in-out;
+  font-size: larger;
+}
+
+.navlist {
+  align-items: right;
+  display: flex;
 }
 
 .experience-grid-wrapper {
