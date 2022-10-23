@@ -1,4 +1,6 @@
+
 import Ducky from "./ducky.png";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
