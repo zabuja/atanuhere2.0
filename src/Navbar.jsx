@@ -1,11 +1,10 @@
-import "./ducky.svg";
-
+import Ducky from "./ducky.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="max-width">
         <div className="logo">
-          <img src="./ducky.svg" alt="icon" />
+          <img src={Ducky} style={{width: 30, height: 30}} />
         </div>
         <ul className="navlist">
           <li className="nav-items">Home</li>
