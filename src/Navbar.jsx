@@ -4,7 +4,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="max-width">
         <div className="logo">
-          <img src={Ducky} style={{width: 30, height: 30}} />
+          <img src={Ducky} style={{width: 30, height: 30}} alt="icon"/>
         </div>
         <ul className="navlist">
           <li className="nav-items">Home</li>
