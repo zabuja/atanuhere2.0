@@ -72,12 +72,15 @@ li:hover {
   color: red;
   font-weight: 600;
   transition: ease-in-out;
-  font-size: larger;
 }
 
 .navlist {
   align-items: right;
   display: flex;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .experience-grid-wrapper {
@@ -91,4 +94,26 @@ li:hover {
   margin-inline-start: auto;
   margin-inline-end: auto;
   margin-bottom: 2.5rem;
+}
+.contact-list{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+  body{
+    padding: 5px;
+  }
+  .headline-text{
+    color: yellow;
+  }
+  .experience-grid-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

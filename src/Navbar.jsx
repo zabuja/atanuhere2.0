@@ -9,10 +9,10 @@ const Navbar = () => {
           <img src={Ducky} style={{width: 30, height: 30}} alt="icon"/>
         </div>
         <ul className="navlist">
-          <li className="nav-items">Home</li>
-          <li className="nav-items">About</li>
-          <li className="nav-items">Projects</li>
-          <li className="nav-items">Wanna chat?</li>
+          <li className="nav-items"><a href="#Home">Home</a></li>
+          <li className="nav-items"><a href="#About">About</a></li>
+          <li className="nav-items"><a href="#Experience">Experience</a></li>
+          <li className="nav-items"><a href="#Projects">Projects</a></li>
         </ul>
       </div>
     </nav>
