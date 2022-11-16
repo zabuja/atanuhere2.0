@@ -5,7 +5,8 @@
 body {
   font-family: 'Noto Sans Mono', monospace;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  overflow-wrap: break-word;
   box-sizing: border-box;
   background-color: rgb(17, 17, 17);
 }
@@ -34,6 +35,9 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.job-titles:hover{
+ color: yellow;
+}
 
 .job-desc {
   color: #686868;
@@ -54,7 +58,9 @@ body {
 
 .navbar {
   margin: 10px;
+  z-index: 100;
 }
+
 
 .max-width {
   display: flex;
@@ -99,7 +105,28 @@ a{
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: space-between;
+  
+}
+.icons{
+  padding-right: 20px;
+}
+
+.project-grid-wrapper {
+  display: grid;
+  grid-gap: 0.8rem;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 880px;
+  padding-inline-start: 10px;
+  padding: 10px;
+  padding-inline-end: 10px;
+  width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-bottom: 2.5rem;
+  background-color: rgba(34, 36, 37,0.6);
+  border-color: rgb(153, 153, 82);
+  border-style: solid;
+  border-radius: 10px;
 }
 
 
@@ -108,7 +135,7 @@ a{
 
 @media screen and (max-width: 700px) {
   body{
-    padding: 5px;
+    padding: 20px;
   }
   .headline-text{
     color: yellow;

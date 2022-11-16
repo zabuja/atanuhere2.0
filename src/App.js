@@ -31,6 +31,47 @@ const App = () => {
             based on user metrics.
           </p>
         </section>
+        <section id="chat">
+          <div className="contact-content">
+            <h2 className="headers">Get in Touch</h2>
+            <p className="normal-text">
+              Pick your favorite social media and I will be there to connect
+              with you !!!
+            </p>
+            <div className="contact-list">
+              <div className="icons">
+              <a
+                className="job-titles"
+                href="mailto:atanu.zxbui@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaPaperclip style={{ width: 30, height: 30 }} /> <t />
+              </a>
+              </div>
+              <div className="icons">
+              <a
+                className="job-titles"
+                href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin style={{ width: 30, height: 30 }} />{" "}
+              </a>
+              </div>
+              <div className="icons">
+              <a
+                className="job-titles"
+                href="https://github.com/zabuja"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <GoMarkGithub style={{ width: 30, height: 30 }} />
+              </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section id="Experience">
           <h2 className="headers">Work Experience</h2>
@@ -40,6 +81,8 @@ const App = () => {
               <a
                 className="job-titles"
                 href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Graphic Designer - Humans For Humanity
               </a>
@@ -57,6 +100,8 @@ const App = () => {
               <a
                 className="job-titles"
                 href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Python Developer - Material Depot
               </a>
@@ -73,6 +118,8 @@ const App = () => {
               <a
                 className="job-titles"
                 href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Content Writer - K4 Media & Technologies
               </a>
@@ -88,18 +135,24 @@ const App = () => {
 
         <section id="Projects">
           <h2 className="headers">Side Projects</h2>
-          <div className="experience-grid-wrapper">
-            <div className="years">
-              <a className="job-titles" href="https://admin-fox.netlify.app">
-                https://admin-fox.netlify.app/
-              </a>
-            </div>
+          <div className="project-grid-wrapper">
             <div className="job-wrapper">
               <a
                 className="job-titles"
                 href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
               >
-                Admin Dashboard
+                Admin Dashboard -
+                <a
+                  className="job-titles"
+                  href="https://admin-fox.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  https://admin-fox.netlify.app/
+                </a>
               </a>
               <p className="job-desc">
                 A fully interactive Admin Panel that includes one Dashboard.
@@ -110,15 +163,24 @@ const App = () => {
               </p>
             </div>
           </div>
-          <div className="experience-grid-wrapper">
-            <div className="years">
-              <a className="job-titles" href="https://mused.netlify.app/">
-                https://mused.netlify.app/
-              </a>
-            </div>
+          <div className="project-grid-wrapper">
             <div className="job-wrapper">
-              <a className="job-titles" href="https://github.com/zabuja/muse">
-                Lyriks - Music player
+              <a
+                className="job-titles"
+                href="https://github.com/zabuja/muse"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Lyriks - Music player -
+                <a
+                  className="job-titles"
+                  href="https://admin-fox.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  https://mused.netlify.app/
+                </a>
               </a>
               <p className="job-desc">
                 Improved version of Spotify. With a modern homepage fullyfledged
@@ -128,18 +190,24 @@ const App = () => {
               </p>
             </div>
           </div>
-          <div className="experience-grid-wrapper">
-            <div className="years">
-              <a className="job-titles" href="https://bankease.netlify.app/">
-                https://bankease.netlify.app/
-              </a>
-            </div>
+          <div className="project-grid-wrapper">
             <div className="job-wrapper">
               <a
                 className="job-titles"
                 href="https://github.com/zabuja/beaseness"
+                target="_blank"
+                rel="noreferrer"
               >
-                Beaseness - Buisness landing page
+                Buisness landing page -
+                <a
+                  className="job-titles"
+                  href="https://admin-fox.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  https://bankease.netlify.app/
+                </a>
               </a>
               <p className="job-desc">
                 A fully responsive business landing page made using ReactJS
@@ -153,41 +221,7 @@ const App = () => {
           </div>
         </section>
 
-        <section id="chat">
-          <div className="contact-content">
-            <h2 className="headers">Get in Touch</h2>
-            <p className="normal-text">
-              Pick your favorite social media and I will be there to connect
-              with you !!!
-            </p>
-            <div className="contact-list">
-              <a
-                className="job-titles"
-                href="mailto:atanu.zxbui@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaPaperclip style={{ width: 30, height: 30 }} /> <t />
-              </a>
-              <a
-                className="job-titles"
-                href="https://www.linkedin.com/in/getatanu/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaLinkedin style={{ width: 30, height: 30 }} />{" "}
-              </a>
-              <a
-                className="job-titles"
-                href="https://github.com/zabuja"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <GoMarkGithub style={{ width: 30, height: 30 }} />
-              </a>
-            </div>
-          </div>
-        </section>
+        
       </div>
     </div>
   );
