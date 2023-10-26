@@ -76,6 +76,22 @@ const App = () => {
         <section id="Experience">
           <h2 className="headers">Work Experience</h2>
           <div className="experience-grid-wrapper">
+            <div className="years">Jun 2023 - Aug 2023</div>
+            <div className="job-wrapper">
+              <a
+                className="job-titles"
+                href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Martian Summer Intern - Persistent Systems
+              </a>
+              <p className="job-desc">
+              Gained valuable expertise in Python, DBMS, Linux & other emerging technologies through this program.Improved problem solving skills with topic wise assessments scoring an average of 90% .
+              </p>
+            </div>
+          </div>
+          <div className="experience-grid-wrapper">
             <div className="years">Jun 2022 - Sep 2022</div>
             <div className="job-wrapper">
               <a
@@ -135,6 +151,31 @@ const App = () => {
 
         <section id="Projects">
           <h2 className="headers">Side Projects</h2>
+          <div className="project-grid-wrapper">
+            <div className="job-wrapper">
+              <a
+                className="job-titles"
+                href="https://www.linkedin.com/in/getatanu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GOSSIP chat app -
+                <a
+                  className="job-titles"
+                  href="https://admin-fox.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  https://admin-fox.netlify.app/
+                </a>
+              </a>
+              <p className="job-desc">
+              eveloped a real time chat application with both one-one chatting and group chatting feature. Implemented user authentication with password-hashing in backend for user securit
+                <br /> TechStack: ReactJS, ChakraUI, BCrypt, NodeJS, SocketIO, MongoDB
+              </p>
+            </div>
+          </div>
           <div className="project-grid-wrapper">
             <div className="job-wrapper">
               <a
@@ -221,8 +262,8 @@ const App = () => {
           </div>
         </section>
 
-        
       </div>
+      <footer>Created by Atanu❤️</footer>
     </div>
   );
 };

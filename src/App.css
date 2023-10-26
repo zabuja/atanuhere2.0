@@ -143,6 +143,13 @@ border-color: rgb(153, 153, 82);
 border-radius: 8px;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: yellow;
+  color: black;
+}
+
 
 
 /* media queries */
